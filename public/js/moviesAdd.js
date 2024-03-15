@@ -9,3 +9,11 @@ h1.classList.add("titulo");
 section.classList.add("fondoTransparente");
 
 article.classList.add("fondoCRUD");
+
+h1.addEventListener('mouseover', () => {
+  h1.style.color = 'red'
+})
+
+h1.addEventListener('mouseout', () => {
+  h1.style.color = 'black'
+})
